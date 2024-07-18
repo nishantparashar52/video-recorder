@@ -1,0 +1,16 @@
+.cell {
+    border: 1px solid #ccc;
+    padding: 8px;
+    /* margin: 8px; */
+    flex-basis: 32%;
+    height: 40px;
+    font-size: 20px;
+}
+.board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 400px;
+    margin: 0 auto;
+}
